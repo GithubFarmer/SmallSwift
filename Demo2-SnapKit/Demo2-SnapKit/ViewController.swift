@@ -8,7 +8,7 @@
 
 import UIKit
 import SnapKit
-//学习swift自动布局 使用Snapkit
+//学习swift自动布局 使用Snapkit 
 class ViewController: UIViewController {
 
     var view1 = UIView()
