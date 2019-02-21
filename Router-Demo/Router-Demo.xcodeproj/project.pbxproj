@@ -10,11 +10,19 @@
 		AE2B47012212B34A002D98CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B47002212B34A002D98CE /* AppDelegate.m */; };
 		AE2B47042212B34A002D98CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B47032212B34A002D98CE /* ViewController.m */; };
 		AE2B47072212B34A002D98CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2B47052212B34A002D98CE /* Main.storyboard */; };
-		AE2B47092212B34A002D98CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2B47082212B34A002D98CE /* Assets.xcassets */; };
 		AE2B470C2212B34A002D98CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2B470A2212B34A002D98CE /* LaunchScreen.storyboard */; };
 		AE2B470F2212B34A002D98CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B470E2212B34A002D98CE /* main.m */; };
 		AE2B47192212B34A002D98CE /* Router_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B47182212B34A002D98CE /* Router_DemoTests.m */; };
 		AE2B47242212B34A002D98CE /* Router_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B47232212B34A002D98CE /* Router_DemoUITests.m */; };
+		AEA063E72213A98A005865DC /* TestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA063D62213A989005865DC /* TestViewController1.m */; };
+		AEA063E82213A98A005865DC /* TestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA063D72213A989005865DC /* TestViewController2.m */; };
+		AEA063E92213A98A005865DC /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA063DC2213A98A005865DC /* MGJRouter.m */; };
+		AEA063EA2213A98A005865DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA063DF2213A98A005865DC /* LaunchScreen.storyboard */; };
+		AEA063EB2213A98A005865DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA063E12213A98A005865DC /* Main.storyboard */; };
+		AEA063EC2213A98A005865DC /* TestViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA063E32213A98A005865DC /* TestViewController3.m */; };
+		AEA063ED2213A98A005865DC /* GlobalModuleRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA063E42213A98A005865DC /* GlobalModuleRouter.m */; };
+		AEA063EF2213A9B1005865DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA063EE2213A9B1005865DC /* Assets.xcassets */; };
+		AEA063F222141A05005865DC /* NSDate+kExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA063F122141A05005865DC /* NSDate+kExtend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +49,6 @@
 		AE2B47022212B34A002D98CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AE2B47032212B34A002D98CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AE2B47062212B34A002D98CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE2B47082212B34A002D98CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2B470B2212B34A002D98CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2B470D2212B34A002D98CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE2B470E2212B34A002D98CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +58,21 @@
 		AE2B471F2212B34A002D98CE /* Router-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Router-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2B47232212B34A002D98CE /* Router_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Router_DemoUITests.m; sourceTree = "<group>"; };
 		AE2B47252212B34A002D98CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA063D62213A989005865DC /* TestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController1.m; sourceTree = "<group>"; };
+		AEA063D72213A989005865DC /* TestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController2.m; sourceTree = "<group>"; };
+		AEA063D82213A989005865DC /* TestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController1.h; sourceTree = "<group>"; };
+		AEA063D92213A989005865DC /* TestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController2.h; sourceTree = "<group>"; };
+		AEA063DB2213A98A005865DC /* MGJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
+		AEA063DC2213A98A005865DC /* MGJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
+		AEA063DD2213A98A005865DC /* TestViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController3.h; sourceTree = "<group>"; };
+		AEA063E02213A98A005865DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEA063E22213A98A005865DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		AEA063E32213A98A005865DC /* TestViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController3.m; sourceTree = "<group>"; };
+		AEA063E42213A98A005865DC /* GlobalModuleRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalModuleRouter.m; sourceTree = "<group>"; };
+		AEA063E52213A98A005865DC /* GlobalModuleRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalModuleRouter.h; sourceTree = "<group>"; };
+		AEA063EE2213A9B1005865DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEA063F022141A05005865DC /* NSDate+kExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+kExtend.h"; sourceTree = "<group>"; };
+		AEA063F122141A05005865DC /* NSDate+kExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+kExtend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +123,24 @@
 		AE2B46FE2212B34A002D98CE /* Router-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				AEA063DE2213A98A005865DC /* Base.lproj */,
+				AEA063E52213A98A005865DC /* GlobalModuleRouter.h */,
+				AEA063E42213A98A005865DC /* GlobalModuleRouter.m */,
+				AEA063DA2213A98A005865DC /* MGJRouter */,
+				AEA063D82213A989005865DC /* TestViewController1.h */,
+				AEA063D62213A989005865DC /* TestViewController1.m */,
+				AEA063F022141A05005865DC /* NSDate+kExtend.h */,
+				AEA063F122141A05005865DC /* NSDate+kExtend.m */,
+				AEA063D92213A989005865DC /* TestViewController2.h */,
+				AEA063D72213A989005865DC /* TestViewController2.m */,
+				AEA063DD2213A98A005865DC /* TestViewController3.h */,
+				AEA063EE2213A9B1005865DC /* Assets.xcassets */,
+				AEA063E32213A98A005865DC /* TestViewController3.m */,
 				AE2B46FF2212B34A002D98CE /* AppDelegate.h */,
 				AE2B47002212B34A002D98CE /* AppDelegate.m */,
 				AE2B47022212B34A002D98CE /* ViewController.h */,
 				AE2B47032212B34A002D98CE /* ViewController.m */,
 				AE2B47052212B34A002D98CE /* Main.storyboard */,
-				AE2B47082212B34A002D98CE /* Assets.xcassets */,
 				AE2B470A2212B34A002D98CE /* LaunchScreen.storyboard */,
 				AE2B470D2212B34A002D98CE /* Info.plist */,
 				AE2B470E2212B34A002D98CE /* main.m */,
@@ -130,6 +164,24 @@
 				AE2B47252212B34A002D98CE /* Info.plist */,
 			);
 			path = "Router-DemoUITests";
+			sourceTree = "<group>";
+		};
+		AEA063DA2213A98A005865DC /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				AEA063DB2213A98A005865DC /* MGJRouter.h */,
+				AEA063DC2213A98A005865DC /* MGJRouter.m */,
+			);
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		AEA063DE2213A98A005865DC /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				AEA063DF2213A98A005865DC /* LaunchScreen.storyboard */,
+				AEA063E12213A98A005865DC /* Main.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2B470C2212B34A002D98CE /* LaunchScreen.storyboard in Resources */,
-				AE2B47092212B34A002D98CE /* Assets.xcassets in Resources */,
+				AEA063EB2213A98A005865DC /* Main.storyboard in Resources */,
+				AEA063EA2213A98A005865DC /* LaunchScreen.storyboard in Resources */,
+				AEA063EF2213A9B1005865DC /* Assets.xcassets in Resources */,
 				AE2B47072212B34A002D98CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA063EC2213A98A005865DC /* TestViewController3.m in Sources */,
+				AEA063F222141A05005865DC /* NSDate+kExtend.m in Sources */,
+				AEA063E72213A98A005865DC /* TestViewController1.m in Sources */,
+				AEA063E82213A98A005865DC /* TestViewController2.m in Sources */,
 				AE2B47042212B34A002D98CE /* ViewController.m in Sources */,
+				AEA063E92213A98A005865DC /* MGJRouter.m in Sources */,
 				AE2B470F2212B34A002D98CE /* main.m in Sources */,
 				AE2B47012212B34A002D98CE /* AppDelegate.m in Sources */,
+				AEA063ED2213A98A005865DC /* GlobalModuleRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +377,22 @@
 				AE2B470B2212B34A002D98CE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AEA063DF2213A98A005865DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA063E02213A98A005865DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AEA063E12213A98A005865DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA063E22213A98A005865DC /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

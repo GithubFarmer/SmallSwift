@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A71A32FB17CB2B0402FF62 /* libPods-RainNetWorkUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99AA694CEB4F92C8836DCC2B /* libPods-RainNetWorkUITests.a */; };
+		4B10C9F3B976FFA7F55DA118 /* libPods-RainNetWorkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 030FB823E38FC8E61E5B16E1 /* libPods-RainNetWorkTests.a */; };
+		98626570FE112779DE1D7BA2 /* libPods-RainNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D28AA881E0EAC9B134C1CE8D /* libPods-RainNetWork.a */; };
+		AE58A0A6221A871D00B6FC17 /* TestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AE58A0A5221A871D00B6FC17 /* TestRequest.m */; };
+		AE58A0A9221A8D7500B6FC17 /* RainService.m in Sources */ = {isa = PBXBuildFile; fileRef = AE58A0A8221A8D7500B6FC17 /* RainService.m */; };
+		AED03BD522168188009ECF0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AED03BD422168188009ECF0B /* AppDelegate.m */; };
+		AED03BD822168188009ECF0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED03BD722168188009ECF0B /* ViewController.m */; };
+		AED03BDB22168188009ECF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED03BD922168188009ECF0B /* Main.storyboard */; };
+		AED03BDD22168188009ECF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED03BDC22168188009ECF0B /* Assets.xcassets */; };
+		AED03BE022168188009ECF0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED03BDE22168188009ECF0B /* LaunchScreen.storyboard */; };
+		AED03BE322168188009ECF0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AED03BE222168188009ECF0B /* main.m */; };
+		AED03BED22168188009ECF0B /* RainNetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AED03BEC22168188009ECF0B /* RainNetWorkTests.m */; };
+		AED03BF822168188009ECF0B /* RainNetWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AED03BF722168188009ECF0B /* RainNetWorkUITests.m */; };
+		AED03C0A2216859C009ECF0B /* RainNetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AED03C092216859C009ECF0B /* RainNetWorkRequest.m */; };
+		AED03C0D221685B9009ECF0B /* RainNetWorkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AED03C0C221685B9009ECF0B /* RainNetWorkResponse.m */; };
+		AED03C10221685DB009ECF0B /* RainNetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AED03C0F221685DB009ECF0B /* RainNetWorkConfig.m */; };
+		AED03C13221685FD009ECF0B /* RainNetWorkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = AED03C12221685FD009ECF0B /* RainNetWorkAgent.m */; };
+		AED03C162216862A009ECF0B /* RainNetWorkLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AED03C152216862A009ECF0B /* RainNetWorkLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AED03BE922168188009ECF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED03BC822168187009ECF0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AED03BCF22168187009ECF0B;
+			remoteInfo = RainNetWork;
+		};
+		AED03BF422168188009ECF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED03BC822168187009ECF0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AED03BCF22168187009ECF0B;
+			remoteInfo = RainNetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030FB823E38FC8E61E5B16E1 /* libPods-RainNetWorkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainNetWorkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		162B7213A27619802A6CCE2C /* Pods-RainNetWorkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainNetWorkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainNetWorkUITests/Pods-RainNetWorkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1ABF832D3F17BB357B751C13 /* Pods-RainNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainNetWork/Pods-RainNetWork.release.xcconfig"; sourceTree = "<group>"; };
+		4D543CB436AF51996AD8C67A /* Pods-RainNetWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainNetWorkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainNetWorkTests/Pods-RainNetWorkTests.release.xcconfig"; sourceTree = "<group>"; };
+		99AA694CEB4F92C8836DCC2B /* libPods-RainNetWorkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainNetWorkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE58A0A4221A871D00B6FC17 /* TestRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRequest.h; sourceTree = "<group>"; };
+		AE58A0A5221A871D00B6FC17 /* TestRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRequest.m; sourceTree = "<group>"; };
+		AE58A0A7221A8D7500B6FC17 /* RainService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainService.h; sourceTree = "<group>"; };
+		AE58A0A8221A8D7500B6FC17 /* RainService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainService.m; sourceTree = "<group>"; };
+		AE79A7452217A41300BFBFE6 /* RainNetWorkServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainNetWorkServiceProtocol.h; sourceTree = "<group>"; };
+		AED03BD022168187009ECF0B /* RainNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED03BD322168188009ECF0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AED03BD422168188009ECF0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AED03BD622168188009ECF0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AED03BD722168188009ECF0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AED03BDA22168188009ECF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AED03BDC22168188009ECF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AED03BDF22168188009ECF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AED03BE122168188009ECF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED03BE222168188009ECF0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AED03BE822168188009ECF0B /* RainNetWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainNetWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED03BEC22168188009ECF0B /* RainNetWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainNetWorkTests.m; sourceTree = "<group>"; };
+		AED03BEE22168188009ECF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED03BF322168188009ECF0B /* RainNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED03BF722168188009ECF0B /* RainNetWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainNetWorkUITests.m; sourceTree = "<group>"; };
+		AED03BF922168188009ECF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED03C06221681C8009ECF0B /* RainNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainNetWork.h; sourceTree = "<group>"; };
+		AED03C0722168503009ECF0B /* RainNetWorkAccessoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainNetWorkAccessoryProtocol.h; sourceTree = "<group>"; };
+		AED03C082216859C009ECF0B /* RainNetWorkRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainNetWorkRequest.h; sourceTree = "<group>"; };
+		AED03C092216859C009ECF0B /* RainNetWorkRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainNetWorkRequest.m; sourceTree = "<group>"; };
+		AED03C0B221685B9009ECF0B /* RainNetWorkResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainNetWorkResponse.h; sourceTree = "<group>"; };
+		AED03C0C221685B9009ECF0B /* RainNetWorkResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainNetWorkResponse.m; sourceTree = "<group>"; };
+		AED03C0E221685DB009ECF0B /* RainNetWorkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainNetWorkConfig.h; sourceTree = "<group>"; };
+		AED03C0F221685DB009ECF0B /* RainNetWorkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainNetWorkConfig.m; sourceTree = "<group>"; };
+		AED03C11221685FD009ECF0B /* RainNetWorkAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainNetWorkAgent.h; sourceTree = "<group>"; };
+		AED03C12221685FD009ECF0B /* RainNetWorkAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainNetWorkAgent.m; sourceTree = "<group>"; };
+		AED03C142216862A009ECF0B /* RainNetWorkLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainNetWorkLogger.h; sourceTree = "<group>"; };
+		AED03C152216862A009ECF0B /* RainNetWorkLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainNetWorkLogger.m; sourceTree = "<group>"; };
+		AED03C1722168AC0009ECF0B /* RainNetWorkInterceptorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainNetWorkInterceptorProtocol.h; sourceTree = "<group>"; };
+		AED03C182216B9E0009ECF0B /* RainNetWorkRequestConfigProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainNetWorkRequestConfigProtocol.h; sourceTree = "<group>"; };
+		AED03C192216BFF0009ECF0B /* RainNetWorkResponseProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainNetWorkResponseProtocol.h; sourceTree = "<group>"; };
+		C866A32A194101D032A47B80 /* Pods-RainNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainNetWork/Pods-RainNetWork.debug.xcconfig"; sourceTree = "<group>"; };
+		D28AA881E0EAC9B134C1CE8D /* libPods-RainNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainNetWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AC40AC502F6C4835CA8E7D /* Pods-RainNetWorkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainNetWorkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainNetWorkUITests/Pods-RainNetWorkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD8D8E428C52C5D01DCDCD5 /* Pods-RainNetWorkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainNetWorkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainNetWorkTests/Pods-RainNetWorkTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AED03BCD22168187009ECF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98626570FE112779DE1D7BA2 /* libPods-RainNetWork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED03BE522168188009ECF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B10C9F3B976FFA7F55DA118 /* libPods-RainNetWorkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED03BF022168188009ECF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A71A32FB17CB2B0402FF62 /* libPods-RainNetWorkUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91AD053CE14816140A8E90C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D28AA881E0EAC9B134C1CE8D /* libPods-RainNetWork.a */,
+				030FB823E38FC8E61E5B16E1 /* libPods-RainNetWorkTests.a */,
+				99AA694CEB4F92C8836DCC2B /* libPods-RainNetWorkUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AED03BC722168187009ECF0B = {
+			isa = PBXGroup;
+			children = (
+				AED03BD222168187009ECF0B /* RainNetWork */,
+				AED03BEB22168188009ECF0B /* RainNetWorkTests */,
+				AED03BF622168188009ECF0B /* RainNetWorkUITests */,
+				AED03BD122168187009ECF0B /* Products */,
+				B41471A594316EAC2E4CBBF7 /* Pods */,
+				91AD053CE14816140A8E90C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AED03BD122168187009ECF0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AED03BD022168187009ECF0B /* RainNetWork.app */,
+				AED03BE822168188009ECF0B /* RainNetWorkTests.xctest */,
+				AED03BF322168188009ECF0B /* RainNetWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AED03BD222168187009ECF0B /* RainNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				AED03BD322168188009ECF0B /* AppDelegate.h */,
+				AED03BD422168188009ECF0B /* AppDelegate.m */,
+				AED03BD622168188009ECF0B /* ViewController.h */,
+				AED03BD722168188009ECF0B /* ViewController.m */,
+				AE58A0A7221A8D7500B6FC17 /* RainService.h */,
+				AE58A0A8221A8D7500B6FC17 /* RainService.m */,
+				AE58A0A4221A871D00B6FC17 /* TestRequest.h */,
+				AE58A0A5221A871D00B6FC17 /* TestRequest.m */,
+				AED03C05221681B2009ECF0B /* RainNetWork */,
+				AED03BD922168188009ECF0B /* Main.storyboard */,
+				AED03BDC22168188009ECF0B /* Assets.xcassets */,
+				AED03BDE22168188009ECF0B /* LaunchScreen.storyboard */,
+				AED03BE122168188009ECF0B /* Info.plist */,
+				AED03BE222168188009ECF0B /* main.m */,
+			);
+			path = RainNetWork;
+			sourceTree = "<group>";
+		};
+		AED03BEB22168188009ECF0B /* RainNetWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				AED03BEC22168188009ECF0B /* RainNetWorkTests.m */,
+				AED03BEE22168188009ECF0B /* Info.plist */,
+			);
+			path = RainNetWorkTests;
+			sourceTree = "<group>";
+		};
+		AED03BF622168188009ECF0B /* RainNetWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AED03BF722168188009ECF0B /* RainNetWorkUITests.m */,
+				AED03BF922168188009ECF0B /* Info.plist */,
+			);
+			path = RainNetWorkUITests;
+			sourceTree = "<group>";
+		};
+		AED03C05221681B2009ECF0B /* RainNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				AED03C06221681C8009ECF0B /* RainNetWork.h */,
+				AED03C0722168503009ECF0B /* RainNetWorkAccessoryProtocol.h */,
+				AED03C1722168AC0009ECF0B /* RainNetWorkInterceptorProtocol.h */,
+				AED03C182216B9E0009ECF0B /* RainNetWorkRequestConfigProtocol.h */,
+				AED03C192216BFF0009ECF0B /* RainNetWorkResponseProtocol.h */,
+				AE79A7452217A41300BFBFE6 /* RainNetWorkServiceProtocol.h */,
+				AED03C082216859C009ECF0B /* RainNetWorkRequest.h */,
+				AED03C092216859C009ECF0B /* RainNetWorkRequest.m */,
+				AED03C0B221685B9009ECF0B /* RainNetWorkResponse.h */,
+				AED03C0C221685B9009ECF0B /* RainNetWorkResponse.m */,
+				AED03C0E221685DB009ECF0B /* RainNetWorkConfig.h */,
+				AED03C0F221685DB009ECF0B /* RainNetWorkConfig.m */,
+				AED03C11221685FD009ECF0B /* RainNetWorkAgent.h */,
+				AED03C12221685FD009ECF0B /* RainNetWorkAgent.m */,
+				AED03C142216862A009ECF0B /* RainNetWorkLogger.h */,
+				AED03C152216862A009ECF0B /* RainNetWorkLogger.m */,
+			);
+			path = RainNetWork;
+			sourceTree = "<group>";
+		};
+		B41471A594316EAC2E4CBBF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C866A32A194101D032A47B80 /* Pods-RainNetWork.debug.xcconfig */,
+				1ABF832D3F17BB357B751C13 /* Pods-RainNetWork.release.xcconfig */,
+				FDD8D8E428C52C5D01DCDCD5 /* Pods-RainNetWorkTests.debug.xcconfig */,
+				4D543CB436AF51996AD8C67A /* Pods-RainNetWorkTests.release.xcconfig */,
+				F3AC40AC502F6C4835CA8E7D /* Pods-RainNetWorkUITests.debug.xcconfig */,
+				162B7213A27619802A6CCE2C /* Pods-RainNetWorkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AED03BCF22168187009ECF0B /* RainNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED03BFC22168188009ECF0B /* Build configuration list for PBXNativeTarget "RainNetWork" */;
+			buildPhases = (
+				E08251A0EDAF9212FCF6DA01 /* [CP] Check Pods Manifest.lock */,
+				AED03BCC22168187009ECF0B /* Sources */,
+				AED03BCD22168187009ECF0B /* Frameworks */,
+				AED03BCE22168187009ECF0B /* Resources */,
+				4659271CE763DBE6BB09A3E5 /* [CP] Embed Pods Frameworks */,
+				85F053E3C121CD8EBD9794AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainNetWork;
+			productName = RainNetWork;
+			productReference = AED03BD022168187009ECF0B /* RainNetWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AED03BE722168188009ECF0B /* RainNetWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED03BFF22168188009ECF0B /* Build configuration list for PBXNativeTarget "RainNetWorkTests" */;
+			buildPhases = (
+				A7F2DD6B7D3DFA3FB1DD23B4 /* [CP] Check Pods Manifest.lock */,
+				AED03BE422168188009ECF0B /* Sources */,
+				AED03BE522168188009ECF0B /* Frameworks */,
+				AED03BE622168188009ECF0B /* Resources */,
+				ACE365962E7FAE5F1E355464 /* [CP] Embed Pods Frameworks */,
+				74479F0D3E3C5CE3E8D05597 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AED03BEA22168188009ECF0B /* PBXTargetDependency */,
+			);
+			name = RainNetWorkTests;
+			productName = RainNetWorkTests;
+			productReference = AED03BE822168188009ECF0B /* RainNetWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AED03BF222168188009ECF0B /* RainNetWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED03C0222168188009ECF0B /* Build configuration list for PBXNativeTarget "RainNetWorkUITests" */;
+			buildPhases = (
+				B2DEF4BF76F49E9ABD3F840E /* [CP] Check Pods Manifest.lock */,
+				AED03BEF22168188009ECF0B /* Sources */,
+				AED03BF022168188009ECF0B /* Frameworks */,
+				AED03BF122168188009ECF0B /* Resources */,
+				C31F49D6A066909F9C608813 /* [CP] Embed Pods Frameworks */,
+				A3CAC81D55EDE8E52A436381 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AED03BF522168188009ECF0B /* PBXTargetDependency */,
+			);
+			name = RainNetWorkUITests;
+			productName = RainNetWorkUITests;
+			productReference = AED03BF322168188009ECF0B /* RainNetWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AED03BC822168187009ECF0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "喻永权";
+				TargetAttributes = {
+					AED03BCF22168187009ECF0B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AED03BE722168188009ECF0B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AED03BCF22168187009ECF0B;
+					};
+					AED03BF222168188009ECF0B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AED03BCF22168187009ECF0B;
+					};
+				};
+			};
+			buildConfigurationList = AED03BCB22168187009ECF0B /* Build configuration list for PBXProject "RainNetWork" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AED03BC722168187009ECF0B;
+			productRefGroup = AED03BD122168187009ECF0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AED03BCF22168187009ECF0B /* RainNetWork */,
+				AED03BE722168188009ECF0B /* RainNetWorkTests */,
+				AED03BF222168188009ECF0B /* RainNetWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AED03BCE22168187009ECF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED03BE022168188009ECF0B /* LaunchScreen.storyboard in Resources */,
+				AED03BDD22168188009ECF0B /* Assets.xcassets in Resources */,
+				AED03BDB22168188009ECF0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED03BE622168188009ECF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED03BF122168188009ECF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4659271CE763DBE6BB09A3E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainNetWork/Pods-RainNetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74479F0D3E3C5CE3E8D05597 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainNetWorkTests/Pods-RainNetWorkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85F053E3C121CD8EBD9794AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainNetWork/Pods-RainNetWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3CAC81D55EDE8E52A436381 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainNetWorkUITests/Pods-RainNetWorkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F2DD6B7D3DFA3FB1DD23B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainNetWorkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE365962E7FAE5F1E355464 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainNetWorkTests/Pods-RainNetWorkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2DEF4BF76F49E9ABD3F840E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainNetWorkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31F49D6A066909F9C608813 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainNetWorkUITests/Pods-RainNetWorkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E08251A0EDAF9212FCF6DA01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainNetWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AED03BCC22168187009ECF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED03C0A2216859C009ECF0B /* RainNetWorkRequest.m in Sources */,
+				AED03C0D221685B9009ECF0B /* RainNetWorkResponse.m in Sources */,
+				AED03C162216862A009ECF0B /* RainNetWorkLogger.m in Sources */,
+				AED03BD822168188009ECF0B /* ViewController.m in Sources */,
+				AE58A0A6221A871D00B6FC17 /* TestRequest.m in Sources */,
+				AE58A0A9221A8D7500B6FC17 /* RainService.m in Sources */,
+				AED03BE322168188009ECF0B /* main.m in Sources */,
+				AED03C10221685DB009ECF0B /* RainNetWorkConfig.m in Sources */,
+				AED03BD522168188009ECF0B /* AppDelegate.m in Sources */,
+				AED03C13221685FD009ECF0B /* RainNetWorkAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED03BE422168188009ECF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED03BED22168188009ECF0B /* RainNetWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED03BEF22168188009ECF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED03BF822168188009ECF0B /* RainNetWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AED03BEA22168188009ECF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AED03BCF22168187009ECF0B /* RainNetWork */;
+			targetProxy = AED03BE922168188009ECF0B /* PBXContainerItemProxy */;
+		};
+		AED03BF522168188009ECF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AED03BCF22168187009ECF0B /* RainNetWork */;
+			targetProxy = AED03BF422168188009ECF0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AED03BD922168188009ECF0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED03BDA22168188009ECF0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AED03BDE22168188009ECF0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED03BDF22168188009ECF0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AED03BFA22168188009ECF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AED03BFB22168188009ECF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AED03BFD22168188009ECF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C866A32A194101D032A47B80 /* Pods-RainNetWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RainNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AED03BFE22168188009ECF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABF832D3F17BB357B751C13 /* Pods-RainNetWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RainNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AED03C0022168188009ECF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD8D8E428C52C5D01DCDCD5 /* Pods-RainNetWorkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RainNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainNetWork.app/RainNetWork";
+			};
+			name = Debug;
+		};
+		AED03C0122168188009ECF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D543CB436AF51996AD8C67A /* Pods-RainNetWorkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RainNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainNetWork.app/RainNetWork";
+			};
+			name = Release;
+		};
+		AED03C0322168188009ECF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AC40AC502F6C4835CA8E7D /* Pods-RainNetWorkUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RainNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainNetWork;
+			};
+			name = Debug;
+		};
+		AED03C0422168188009ECF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162B7213A27619802A6CCE2C /* Pods-RainNetWorkUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RainNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RainNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainNetWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AED03BCB22168187009ECF0B /* Build configuration list for PBXProject "RainNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED03BFA22168188009ECF0B /* Debug */,
+				AED03BFB22168188009ECF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED03BFC22168188009ECF0B /* Build configuration list for PBXNativeTarget "RainNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED03BFD22168188009ECF0B /* Debug */,
+				AED03BFE22168188009ECF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED03BFF22168188009ECF0B /* Build configuration list for PBXNativeTarget "RainNetWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED03C0022168188009ECF0B /* Debug */,
+				AED03C0122168188009ECF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED03C0222168188009ECF0B /* Build configuration list for PBXNativeTarget "RainNetWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED03C0322168188009ECF0B /* Debug */,
+				AED03C0422168188009ECF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AED03BC822168187009ECF0B /* Project object */;
+}
