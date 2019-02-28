@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE4115252226581B00EF8883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4115242226581B00EF8883 /* AppDelegate.m */; };
+		AE4115282226581B00EF8883 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4115272226581B00EF8883 /* ViewController.m */; };
+		AE41152B2226581B00EF8883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4115292226581B00EF8883 /* Main.storyboard */; };
+		AE41152D2226581B00EF8883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE41152C2226581B00EF8883 /* Assets.xcassets */; };
+		AE4115302226581B00EF8883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE41152E2226581B00EF8883 /* LaunchScreen.storyboard */; };
+		AE4115332226581B00EF8883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4115322226581B00EF8883 /* main.m */; };
+		AE41153D2226581B00EF8883 /* RNAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41153C2226581B00EF8883 /* RNAppTests.m */; };
+		AE4115482226581B00EF8883 /* RNAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4115472226581B00EF8883 /* RNAppUITests.m */; };
+		AE411557222658E400EF8883 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = AE411556222658E400EF8883 /* package.json */; };
+		AE502DF22227732600F7A198 /* ios.index.js in Resources */ = {isa = PBXBuildFile; fileRef = AE502DF12227732600F7A198 /* ios.index.js */; };
+		FDCCDD71B9C4369139321B6E /* Pods_RNApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5F1B0CE9D9C0DD3ED9EB68 /* Pods_RNApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE4115392226581B00EF8883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4115182226581B00EF8883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE41151F2226581B00EF8883;
+			remoteInfo = RNApp;
+		};
+		AE4115442226581B00EF8883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4115182226581B00EF8883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE41151F2226581B00EF8883;
+			remoteInfo = RNApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E0BE0D132CF764B725D41F4 /* Pods_RNAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7505DB7735900282193FC929 /* Pods-RNApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNApp/Pods-RNApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ABE34168BA0BE2E9EFF71C82 /* Pods_RNAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5F1B0CE9D9C0DD3ED9EB68 /* Pods_RNApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4115202226581B00EF8883 /* RNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4115232226581B00EF8883 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE4115242226581B00EF8883 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE4115262226581B00EF8883 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE4115272226581B00EF8883 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE41152A2226581B00EF8883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE41152C2226581B00EF8883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE41152F2226581B00EF8883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE4115312226581B00EF8883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4115322226581B00EF8883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE4115382226581B00EF8883 /* RNAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE41153C2226581B00EF8883 /* RNAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppTests.m; sourceTree = "<group>"; };
+		AE41153E2226581B00EF8883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4115432226581B00EF8883 /* RNAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4115472226581B00EF8883 /* RNAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppUITests.m; sourceTree = "<group>"; };
+		AE4115492226581B00EF8883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE411556222658E400EF8883 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		AE502DF12227732600F7A198 /* ios.index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ios.index.js; sourceTree = "<group>"; };
+		AE502DF322277C8000F7A198 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D311D7F8018D9882DE13A046 /* Pods-RNApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNApp/Pods-RNApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE41151D2226581B00EF8883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCCDD71B9C4369139321B6E /* Pods_RNApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4115352226581B00EF8883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4115402226581B00EF8883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67E92D894E81D560A5FC63EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE502DF322277C8000F7A198 /* libc++.tbd */,
+				AC5F1B0CE9D9C0DD3ED9EB68 /* Pods_RNApp.framework */,
+				0E0BE0D132CF764B725D41F4 /* Pods_RNAppTests.framework */,
+				ABE34168BA0BE2E9EFF71C82 /* Pods_RNAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE4115172226581B00EF8883 = {
+			isa = PBXGroup;
+			children = (
+				AE411555222658C400EF8883 /* ReactComponent */,
+				AE4115222226581B00EF8883 /* RNApp */,
+				AE41153B2226581B00EF8883 /* RNAppTests */,
+				AE4115462226581B00EF8883 /* RNAppUITests */,
+				AE4115212226581B00EF8883 /* Products */,
+				D49F00C99443F9EF51CCB171 /* Pods */,
+				67E92D894E81D560A5FC63EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4115212226581B00EF8883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE4115202226581B00EF8883 /* RNApp.app */,
+				AE4115382226581B00EF8883 /* RNAppTests.xctest */,
+				AE4115432226581B00EF8883 /* RNAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE4115222226581B00EF8883 /* RNApp */ = {
+			isa = PBXGroup;
+			children = (
+				AE4115232226581B00EF8883 /* AppDelegate.h */,
+				AE4115242226581B00EF8883 /* AppDelegate.m */,
+				AE4115262226581B00EF8883 /* ViewController.h */,
+				AE4115272226581B00EF8883 /* ViewController.m */,
+				AE4115292226581B00EF8883 /* Main.storyboard */,
+				AE41152C2226581B00EF8883 /* Assets.xcassets */,
+				AE41152E2226581B00EF8883 /* LaunchScreen.storyboard */,
+				AE4115312226581B00EF8883 /* Info.plist */,
+				AE4115322226581B00EF8883 /* main.m */,
+			);
+			path = RNApp;
+			sourceTree = "<group>";
+		};
+		AE41153B2226581B00EF8883 /* RNAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE41153C2226581B00EF8883 /* RNAppTests.m */,
+				AE41153E2226581B00EF8883 /* Info.plist */,
+			);
+			path = RNAppTests;
+			sourceTree = "<group>";
+		};
+		AE4115462226581B00EF8883 /* RNAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4115472226581B00EF8883 /* RNAppUITests.m */,
+				AE4115492226581B00EF8883 /* Info.plist */,
+			);
+			path = RNAppUITests;
+			sourceTree = "<group>";
+		};
+		AE411555222658C400EF8883 /* ReactComponent */ = {
+			isa = PBXGroup;
+			children = (
+				AE502DF12227732600F7A198 /* ios.index.js */,
+				AE411556222658E400EF8883 /* package.json */,
+			);
+			path = ReactComponent;
+			sourceTree = "<group>";
+		};
+		D49F00C99443F9EF51CCB171 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7505DB7735900282193FC929 /* Pods-RNApp.debug.xcconfig */,
+				D311D7F8018D9882DE13A046 /* Pods-RNApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE41151F2226581B00EF8883 /* RNApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE41154C2226581B00EF8883 /* Build configuration list for PBXNativeTarget "RNApp" */;
+			buildPhases = (
+				1449EB707D60FA08E081F4B9 /* [CP] Check Pods Manifest.lock */,
+				AE41151C2226581B00EF8883 /* Sources */,
+				AE41151D2226581B00EF8883 /* Frameworks */,
+				AE41151E2226581B00EF8883 /* Resources */,
+				0849A188A714DF30737BF8FF /* [CP] Embed Pods Frameworks */,
+				EE7E82F04EB172AF18C1D7DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNApp;
+			productName = RNApp;
+			productReference = AE4115202226581B00EF8883 /* RNApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE4115372226581B00EF8883 /* RNAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE41154F2226581B00EF8883 /* Build configuration list for PBXNativeTarget "RNAppTests" */;
+			buildPhases = (
+				AE4115342226581B00EF8883 /* Sources */,
+				AE4115352226581B00EF8883 /* Frameworks */,
+				AE4115362226581B00EF8883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE41153A2226581B00EF8883 /* PBXTargetDependency */,
+			);
+			name = RNAppTests;
+			productName = RNAppTests;
+			productReference = AE4115382226581B00EF8883 /* RNAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE4115422226581B00EF8883 /* RNAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4115522226581B00EF8883 /* Build configuration list for PBXNativeTarget "RNAppUITests" */;
+			buildPhases = (
+				AE41153F2226581B00EF8883 /* Sources */,
+				AE4115402226581B00EF8883 /* Frameworks */,
+				AE4115412226581B00EF8883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4115452226581B00EF8883 /* PBXTargetDependency */,
+			);
+			name = RNAppUITests;
+			productName = RNAppUITests;
+			productReference = AE4115432226581B00EF8883 /* RNAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4115182226581B00EF8883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "喻永权";
+				TargetAttributes = {
+					AE41151F2226581B00EF8883 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AE4115372226581B00EF8883 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE41151F2226581B00EF8883;
+					};
+					AE4115422226581B00EF8883 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE41151F2226581B00EF8883;
+					};
+				};
+			};
+			buildConfigurationList = AE41151B2226581B00EF8883 /* Build configuration list for PBXProject "RNApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE4115172226581B00EF8883;
+			productRefGroup = AE4115212226581B00EF8883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE41151F2226581B00EF8883 /* RNApp */,
+				AE4115372226581B00EF8883 /* RNAppTests */,
+				AE4115422226581B00EF8883 /* RNAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE41151E2226581B00EF8883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE411557222658E400EF8883 /* package.json in Resources */,
+				AE4115302226581B00EF8883 /* LaunchScreen.storyboard in Resources */,
+				AE41152D2226581B00EF8883 /* Assets.xcassets in Resources */,
+				AE41152B2226581B00EF8883 /* Main.storyboard in Resources */,
+				AE502DF22227732600F7A198 /* ios.index.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4115362226581B00EF8883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4115412226581B00EF8883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0849A188A714DF30737BF8FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RNApp/Pods-RNApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNApp/Pods-RNApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1449EB707D60FA08E081F4B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7E82F04EB172AF18C1D7DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNApp/Pods-RNApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE41151C2226581B00EF8883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4115282226581B00EF8883 /* ViewController.m in Sources */,
+				AE4115332226581B00EF8883 /* main.m in Sources */,
+				AE4115252226581B00EF8883 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4115342226581B00EF8883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE41153D2226581B00EF8883 /* RNAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE41153F2226581B00EF8883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4115482226581B00EF8883 /* RNAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE41153A2226581B00EF8883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE41151F2226581B00EF8883 /* RNApp */;
+			targetProxy = AE4115392226581B00EF8883 /* PBXContainerItemProxy */;
+		};
+		AE4115452226581B00EF8883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE41151F2226581B00EF8883 /* RNApp */;
+			targetProxy = AE4115442226581B00EF8883 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE4115292226581B00EF8883 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE41152A2226581B00EF8883 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE41152E2226581B00EF8883 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE41152F2226581B00EF8883 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE41154A2226581B00EF8883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE41154B2226581B00EF8883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE41154D2226581B00EF8883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7505DB7735900282193FC929 /* Pods-RNApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RNApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE41154E2226581B00EF8883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D311D7F8018D9882DE13A046 /* Pods-RNApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RNApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE4115502226581B00EF8883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RNAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNApp.app/RNApp";
+			};
+			name = Debug;
+		};
+		AE4115512226581B00EF8883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RNAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNApp.app/RNApp";
+			};
+			name = Release;
+		};
+		AE4115532226581B00EF8883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RNAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RNApp;
+			};
+			name = Debug;
+		};
+		AE4115542226581B00EF8883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rain.RNAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RNApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE41151B2226581B00EF8883 /* Build configuration list for PBXProject "RNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE41154A2226581B00EF8883 /* Debug */,
+				AE41154B2226581B00EF8883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE41154C2226581B00EF8883 /* Build configuration list for PBXNativeTarget "RNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE41154D2226581B00EF8883 /* Debug */,
+				AE41154E2226581B00EF8883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE41154F2226581B00EF8883 /* Build configuration list for PBXNativeTarget "RNAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4115502226581B00EF8883 /* Debug */,
+				AE4115512226581B00EF8883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4115522226581B00EF8883 /* Build configuration list for PBXNativeTarget "RNAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4115532226581B00EF8883 /* Debug */,
+				AE4115542226581B00EF8883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE4115182226581B00EF8883 /* Project object */;
+}
