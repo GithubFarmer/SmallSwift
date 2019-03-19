@@ -14,6 +14,7 @@
 		AE96916B21DD9CFC00EAEF47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE96916921DD9CFC00EAEF47 /* LaunchScreen.storyboard */; };
 		AE96917621DD9CFC00EAEF47 /* Demo3_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96917521DD9CFC00EAEF47 /* Demo3_TableViewTests.swift */; };
 		AE96918121DD9CFC00EAEF47 /* Demo3_TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96918021DD9CFC00EAEF47 /* Demo3_TableViewUITests.swift */; };
+		AE9E0CE3222D098100F55C06 /* RainSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E0CE2222D098100F55C06 /* RainSelectedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AE96917C21DD9CFC00EAEF47 /* Demo3-TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo3-TableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE96918021DD9CFC00EAEF47 /* Demo3_TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo3_TableViewUITests.swift; sourceTree = "<group>"; };
 		AE96918221DD9CFC00EAEF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9E0CE2222D098100F55C06 /* RainSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainSelectedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AE96916021DD9CFC00EAEF47 /* AppDelegate.swift */,
 				AE96916221DD9CFC00EAEF47 /* ViewController.swift */,
+				AE9E0CE2222D098100F55C06 /* RainSelectedViewController.swift */,
 				AE96916421DD9CFC00EAEF47 /* Main.storyboard */,
 				AE96916721DD9CFC00EAEF47 /* Assets.xcassets */,
 				AE96916921DD9CFC00EAEF47 /* LaunchScreen.storyboard */,
@@ -193,7 +196,7 @@
 				TargetAttributes = {
 					AE96915C21DD9CFC00EAEF47 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					AE96917021DD9CFC00EAEF47 = {
 						CreatedOnToolsVersion = 9.2;
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE96916321DD9CFC00EAEF47 /* ViewController.swift in Sources */,
+				AE9E0CE3222D098100F55C06 /* RainSelectedViewController.swift in Sources */,
 				AE96916121DD9CFC00EAEF47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,11 +430,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XDK267KQ83;
 				INFOPLIST_FILE = "Demo3-TableView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rain.Demo3-TableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b3d9d33e-56b3-4403-93f5-d159793efcf7";
+				PROVISIONING_PROFILE_SPECIFIER = "Development *";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +447,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Demo3-TableView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rain.Demo3-TableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

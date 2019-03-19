@@ -9,8 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    
     var array = ["21天计划","微笑的面对生活😊","中国新青年报，我们伟大的祖国繁荣富强。","新的一年，我们许下美好的愿望，愿一世安好！！！","努力的过好每一天，朝着自己预定的目标前进，这就是一种进步，一种无声胜有声的前进，就算时间荒漠了青春，繁琐涂画了激情，我们依旧在前行的路上行走，这就是一种美好，一种守望。"]
     var tableView = UITableView()
     var color = UIColor.red
@@ -74,7 +72,28 @@ extension ViewController : UITableViewDataSource{
 //MARK: UITableViewDelegate
 extension ViewController : UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = RainSelectedViewController()
+        vc.delegate = self as RainProtocol;
         
+        vc.myBlock = { mess in
+            print("接受：\(mess)")
+        }
+        vc.block1 = {(name, count) in
+            print("name:\(name) === count:\(count)")
+            
+        }
+        self.present(vc, animated: false, completion: nil);
+    }
+}
+
+//MARK: RainProtocol 运用扩展实现协议的可选属性
+extension ViewController : RainProtocol{
+    func play() {
+        print("无参协议成功实现。。。。。。。。。。")
+    }
+    func changeNickName(newName: String) {
+        print("有参数:\(newName)");
+    
     }
 }
 

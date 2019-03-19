@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+#对pod库的分类引用
+ def share_RainSwiftDemo_Pods
+	#网络请求库，类似于OC中的AFNetWorking
+	pod 'Alamofire'
+	#图片加载库，类似于OC中的SDWebImage
+	pod 'Kingfisher'
+	#自动布局库，类似于OC中的Masonry
+	pod 'SnapKit'
+ end
+
+target 'RainSwiftDemo' do
+
+  use_frameworks!
+  share_RainSwiftDemo_Pods
+
+  target 'RainSwiftDemoTests' do
+    inherit! :search_paths
+	
+  end
+
+  target 'RainSwiftDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

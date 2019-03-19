@@ -1,0 +1,6 @@
+framework module Pods_RainSwiftDemoUITests {
+  umbrella header "Pods-RainSwiftDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
