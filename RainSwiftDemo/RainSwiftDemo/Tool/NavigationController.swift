@@ -15,6 +15,7 @@ class NavigationController: UINavigationController {
 //         UINavigationBar.appearance().setBackgroundImage(UIImage.init(named: "navigationbarBackgroundWhite"), for: UIBarMetrics.default)
         self.navigationBar.barTintColor = UIColor.green;
         self.interactivePopGestureRecognizer?.delegate = nil
+        self.navigationBar.isTranslucent = false
     }
     
     //拦截push控制器

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		48F07EE2F0F596717FFB9ED2 /* Pods_RainSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A15DA30BEDBED4F3DFAF93 /* Pods_RainSwiftDemoTests.framework */; };
 		7CD92D7EBB94D589A653D203 /* Pods_RainSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BE01576D17902F7F815255 /* Pods_RainSwiftDemo.framework */; };
+		AE885E402266FE3D006A04F9 /* ShouYeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE885E3F2266FE3D006A04F9 /* ShouYeCollectionViewCell.swift */; };
+		AE885E4222670C9E006A04F9 /* WaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE885E4122670C9E006A04F9 /* WaterFallLayout.swift */; };
 		AE99CF7A2230E19600FD055C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE99CF792230E19600FD055C /* TabBarController.swift */; };
 		AE99CF7C2230EA0300FD055C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE99CF7B2230EA0300FD055C /* NavigationController.swift */; };
 		AE99CF832230F14500FD055C /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE99CF822230F14500FD055C /* MeViewController.swift */; };
@@ -57,6 +59,8 @@
 		47F8E82B31039292870C664C /* Pods-RainSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainSwiftDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainSwiftDemoTests/Pods-RainSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		72A15DA30BEDBED4F3DFAF93 /* Pods_RainSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96852FB37DA025FEDE20212B /* Pods-RainSwiftDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainSwiftDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainSwiftDemoUITests/Pods-RainSwiftDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE885E3F2266FE3D006A04F9 /* ShouYeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShouYeCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE885E4122670C9E006A04F9 /* WaterFallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallLayout.swift; sourceTree = "<group>"; };
 		AE99CF792230E19600FD055C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		AE99CF7B2230EA0300FD055C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		AE99CF822230F14500FD055C /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				AE99CF8A2230F18300FD055C /* ShouYeViewController.swift */,
+				AE885E3F2266FE3D006A04F9 /* ShouYeCollectionViewCell.swift */,
 			);
 			path = ShouYe;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				AEC50B81222FA5210049352D /* NetworkTool.swift */,
+				AE885E4122670C9E006A04F9 /* WaterFallLayout.swift */,
 				AEC50B83222FACF60049352D /* UIBarButtonItem-Extension.swift */,
 				AEC50B85222FAEC30049352D /* UIColor-Extension.swift */,
 				AE99CF792230E19600FD055C /* TabBarController.swift */,
@@ -555,9 +561,11 @@
 				AEC50B55222F5E870049352D /* ViewController.swift in Sources */,
 				AE99CF8B2230F18300FD055C /* ShouYeViewController.swift in Sources */,
 				AEBCC4DF223237900094E66A /* GameCollectionViewCell.swift in Sources */,
+				AE885E402266FE3D006A04F9 /* ShouYeCollectionViewCell.swift in Sources */,
 				AE99CF8D223107AC00FD055C /* MeTableViewCell.swift in Sources */,
 				AEC50B86222FAEC30049352D /* UIColor-Extension.swift in Sources */,
 				AEBCC4DB223234520094E66A /* OtherViewController.swift in Sources */,
+				AE885E4222670C9E006A04F9 /* WaterFallLayout.swift in Sources */,
 				AEBCC4DD2232355D0094E66A /* GameModel.swift in Sources */,
 				AE99CF832230F14500FD055C /* MeViewController.swift in Sources */,
 				AEC50B82222FA5210049352D /* NetworkTool.swift in Sources */,
