@@ -11,6 +11,10 @@ import UIKit
 let kStatusBarH: CGFloat = 20
 let kNavigationBarH: CGFloat = 44
 let kTabBarH: CGFloat = 49
+let kSafeAreaHeight : CGFloat = 34
+//屏幕宽度小于400的时候，横屏导航的高度为32
+let kNaviHeightOflessThan400 : CGFloat = 32
+let kSafeHeightOfHorizon : CGFloat = 21
 let kScreenW = UIScreen.main.bounds.width
 let kScreenH = UIScreen.main.bounds.height
 class Common: NSObject {

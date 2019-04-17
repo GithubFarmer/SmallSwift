@@ -31,6 +31,7 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         // Do any additional setup after loading the view.
         data = [
             GameModel.init(dict: ["title":"王大嫂","subTitle":"世界上最远的距离就是你站在我对面，我却不认识你","imageurl":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552031760039&di=6de22707a6e637b8b66c42d3539223e5&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F9213b07eca8065381320af069cdda144ac3482d8.jpg"]),
@@ -38,6 +39,16 @@ class GameViewController: UIViewController {
             GameModel.init(dict: ["title":"貂蝉妹妹","subTitle":"一顾倾人城，再顾倾人国","imageurl":"https://dpic.tiankong.com/p7/br/QJ6676994451.jpg?x-oss-process=style/670ws"]),
             GameModel.init(dict: ["title":"李白","subTitle":"举杯邀明月，对影成三人","imageurl":"https://dpic.tiankong.com/03/7j/QJ6860747024.jpg?x-oss-process=style/670ws"])]
         setUpUI()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.barTintColor = UIColor.red
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController?.navigationBar.barTintColor = UIColor.green
     }
     
     func setUpUI() {

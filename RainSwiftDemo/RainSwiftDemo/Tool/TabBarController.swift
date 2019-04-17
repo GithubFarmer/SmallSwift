@@ -15,6 +15,7 @@ class TabBarController: UITabBarController {
         addChildViewController()
         // 设置tabBar字体颜色
         UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.red], for:.selected)
+        tabBar.barTintColor = UIColor.yellow;
         tabBar.isTranslucent = false
     }
     
