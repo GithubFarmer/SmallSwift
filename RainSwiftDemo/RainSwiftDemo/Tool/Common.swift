@@ -29,4 +29,63 @@ class Common: NSObject {
         return UIBarButtonItem.init(customView: button)
     }
     
+    
+    // 输出日志
+    func log(message: String, function: String, file : String, line : Int){
+        print("Message\"\(message)\"(file:\(file),Function:\(function),Line:\(line))")
+    }
+    
+    //RGB色值转UIColor
+    func RGB (r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat ) -> UIColor{
+        return UIColor.init(red: r, green: g, blue: b, alpha: alpha)
+    }
+    
+    //获取系统版本及版本判断
+    func IOSVersion() -> Double {
+        return (UIDevice.current.systemVersion as NSString).doubleValue
+    }
+    
+    //是否大于iOS8.0
+    func IS_IOS8() -> Bool{
+        return IOSVersion() >= 8.0
+    }
+    
+    //根据类名创建控制器
+    func classFromString (className : String) -> UIViewController? {
+        let appName = Bundle.main.object(forInfoDictionaryKey: "CFBundleName")
+        let name = "(\(appName!).\(className)"
+        if let tmpClass = NSClassFromString(name) as? UIViewController.Type {
+            return tmpClass.init()
+        }else{
+            return nil
+        }
+    }
+    
+    //判断字符串是否为空
+    func kIsEmpty(string: String) -> Bool{
+        if string.isEmpty || string == "" {
+            return true
+        }else{
+            return false
+        }
+    }
+    
+    //文字大小设置
+    func kFont(name: String, size: CGFloat) -> UIFont {
+       if !kIsEmpty(string: name){
+            return UIFont.init(name: name, size: size)!
+       }else{
+            return UIFont.systemFont(ofSize: size)
+        }
+    }
+    
+    //屏幕的宽度
+    func kIphone_Width() -> CGFloat{
+        return UIScreen.main.bounds.width
+    }
+    
+    //屏幕的高度
+    func kIphone_Height() -> CGFloat {
+        return UIScreen.main.bounds.height
+    }
 }
